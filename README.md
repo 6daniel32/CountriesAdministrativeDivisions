@@ -8,7 +8,7 @@ The server accepts local requests, offering 2 endpoints:
 
 ## 'localhost:3003/countryStates?countryAlpha2Code=CountryCode' => get all country administrative division categories. 
 
-For example, your requests if you want Spain's administrative divisions must be 'http://localhost:3003//countryStates?countryAlpha2Code=ES', and the response would be 
+For example, if you want Spain's administrative divisions your request must be 'http://localhost:3003//countryStates?countryAlpha2Code=ES', and the response would be 
 '['province', 'autonomous community', 'autonomous city in North Africa']'). 
 
 You can obtain countries ISO alpha 2 codes from this api -> 'https://restcountries.eu/#api-endpoints-list-of-codes', or checking them manually here -> 
