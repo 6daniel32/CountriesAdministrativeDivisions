@@ -1,6 +1,6 @@
 # CountriesAdministrativeDivisions
 
-Simple crawler based built on puppeteer for obtaining all administrative division from different countries (data obtained from https://www.iso.org/obp/ui)
+Simple crawler built on puppeteer for obtaining all administrative division from different countries (data obtained from https://www.iso.org/obp/ui)
 
 The project is a simple node server which runs on localhost on port 3003. It executes a puppeteer instance for crawling data from subdomains of the web shown above.
 
