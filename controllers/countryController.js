@@ -26,7 +26,7 @@ exports.retrieveCountryStates = async function (req, res) {
         return elements;
     }, req.query.divisions);
 
-    res.send(countryStates);
+    res.status(200).send(JSON.stringify(countryStates));
     await browser.close();
     return;
 }
@@ -47,7 +47,7 @@ exports.retrieveCountryDivisions = async function (req, res) {
         }
         return elements;
     });  
-    res.send(subdivisionElements);
+    res.status(200).send(JSON.stringify(subdivisionElements));
     await browser.close();
     return;
 }
